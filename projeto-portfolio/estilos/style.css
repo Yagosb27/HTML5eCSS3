@@ -23,52 +23,51 @@ body {
     text-align: justify;
 }
 
+nav a img {
+    width: 100px;
+    height: 50px;
+}
+
 nav  {
     background-color: black;
-    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
     padding: 0px 8px;
-    text-align: right;
-}
-.menu {
-    text-align: right;
 }
 
 h1  {
     font-size: 1.5em;
-    padding: 50px 5px 5px 5px;
+    padding: 80px 5px 5px 5px;
 }
 
 main {
-    margin: auto;
     width: 100%;
-}
-
-main p {
-    font-weight: bold;
 }
 
 h2  {
     padding: 5px;
 }
 
-img  {
+section img  {
     width: 30px;
     height: 30px;
     padding: 10px 5px 0px 5px;
 }
 
-.destaque1 {
+section {
     padding: 20px;
 }
 
 .destaque2 {
     background-color: var(--cor5);
-    padding: 20px;
 }
 
 footer {
@@ -77,4 +76,7 @@ footer {
     text-align: center;
     width: 100%;
     padding: 5px 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
