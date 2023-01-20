@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+    --cor1: #2B4162;
+    --cor2: #385F71;
+    --cor3: #F5F0F6;
+    --cor4: #D7B377;
+    --cor5: #8F754F;
+    --fonte-principal: "Quicksand", sans-serif;
+}
+
+*  {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor1);
+    color: var(--cor3);
+    text-align: justify;
+}
+
+nav  {
+    background-color: black;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 8px;
+    text-align: right;
+}
+.menu {
+    text-align: right;
+}
+
+h1  {
+    font-size: 1.5em;
+    padding: 50px 5px 5px 5px;
+}
+
+main {
+    margin: auto;
+    width: 100%;
+}
+
+main p {
+    font-weight: bold;
+}
+
+h2  {
+    padding: 5px;
+}
+
+img  {
+    width: 30px;
+    height: 30px;
+    padding: 10px 5px 0px 5px;
+}
+
+.destaque1 {
+    padding: 20px;
+}
+
+.destaque2 {
+    background-color: var(--cor5);
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+}
