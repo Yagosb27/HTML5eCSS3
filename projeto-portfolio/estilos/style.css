@@ -70,6 +70,10 @@ section {
     background-color: var(--cor5);
 }
 
+#ultimo {
+    padding-bottom: 4em;
+}
+
 footer {
     background-color: black;
     color: white;
