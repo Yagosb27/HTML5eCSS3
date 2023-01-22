@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
-    --cor1: #2B4162;
+    --cor1: #182435;
     --cor2: #385F71;
     --cor3: #F5F0F6;
     --cor4: #D7B377;
@@ -72,6 +72,12 @@ section {
 
 #ultimo {
     padding-bottom: 4em;
+}
+
+fieldset {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    font-weight: bold;
 }
 
 footer {

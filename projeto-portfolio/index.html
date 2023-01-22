@@ -39,11 +39,16 @@
         </section>
         <section class="destaque2" id="ultimo">
             <h2>Contate-me</h2>
-            <form action="" method="post">
-            <p>Nome: <input type="text"></p>
+            <form action="" method="post" autocomplete="off">
+                <fieldset>
+                    <p><label for="nome">Nome:</label> <input type="text" name="nome" id="nome" required></p>
+                    <p><label for="sobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="sobrenome" required></p>
+                    <p><label for="email">E-mail:</label> <input type="email" name="email" id="email"></p>
+                </fieldset>
+                <p><input type="submit" value="Enviar"></p>
             </form>
         </section>
     </main>
-    <footer>Site criado por Yago Borges, utilizando HTML5 e CSS3</footer>
+    <footer>Site criado por Yago Borges, utilizando HTML5 e CSS3.</footer>
 </body>
 </html>
