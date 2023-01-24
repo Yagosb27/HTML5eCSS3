@@ -6,10 +6,10 @@
 Projetos, utilizando **HTML5 e CSS3**, desenvolvidos durante o curso do **CursoemVideo** do professor **Gustavo Guanabara**.
  
  **Acesse os projetos:**
- - [Projeto Android](https://yagosb27.github.io/projeto-android/)
- - [Projeto Cordel](https://yagosb27.github.io/projeto-cordel/)
- - [Projeto de Redes Sociais](https://yagosb27.github.io/projeto-redes/)
- - [Projeto de Tela de Login](https://yagosb27.github.io/projeto-login/)
+ - [Projeto Android](https://yagosb27.github.io/projeto-android/);
+ - [Projeto Cordel](https://yagosb27.github.io/projeto-cordel/);
+ - [Projeto de Redes Sociais](https://yagosb27.github.io/projeto-redes/);
+ - [Projeto de Tela de Login](https://yagosb27.github.io/projeto-login/).
 
 ## Saiba mais sobre mim:
 
