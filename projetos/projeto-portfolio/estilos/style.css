@@ -65,6 +65,7 @@ img#mf {
     width: 200px;
     border-radius: 50%;
     text-align: left;
+    float: left;
 }
 
 section img.logo  {
