@@ -3,107 +3,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 :root {
-    --cor1: #182435;
-    --cor2: #385F71;
-    --cor3: #F5F0F6;
-    --cor4: #D7B377;
-    --cor5: #8F754F;
+    --corbege: #F1E9DB;
+    --cormarrom: #A39B8B;
+    --corcinza: #716A5C;
+    --corazulclaro: #5DB7DE;
+    --corazulescuro: #07020D;
     --fonte-principal: "Quicksand", sans-serif;
 }
 
-*  {
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body {
-    font-family: var(--fonte-principal);
-    background-color: var(--cor1);
-    color: var(--cor3);
-    text-align: justify;
-}
-
-nav a img {
-    height: 60%;
-    align-items: center
-}
-
-nav  {
-    background-color: black;
-    position: fixed;
-    top: 0;
-    left: 0;
+menu {
+    background-color: var(--corazulescuro);
     width: 100%;
-    height: 60px;
+    height: 45px;
 }
 
-nav a {
-    text-decoration: none;
+menu > a {
     color: white;
-    padding: 0px 8px;
+    text-decoration: none;
+    padding: 0px 5px;
 }
 
-h1  {
-    font-size: 1.5em;
-    padding: 80px 5px 5px 5px;
-}
-
-main {
-    width: 100%;
-}
-
-h2  {
-    padding: 5px;
+html, body {
+    background-color: var(--corbege);
+    font-family: var(--fonte-principal);
 }
 
 section {
-    padding: 20px;
-    text-align: center;
-}
-
-img#mf {
-    width: 200px;
-    border-radius: 50%;
-    text-align: left;
-    float: left;
-}
-
-section img.logo  {
-    width: 30px;
-    height: 30px;
-    padding: 10px 5px 0px 5px;
-}
-
-section h1, h2, p {
-    width: 700px;
-    margin: auto;
-}
-
-section.destaque1 p, section.destaque1 h1, section.destaque1 h2  {
-    text-align: right;
-}
-
-section.destaque2 {
-    background-color: var(--cor5);
-}
-
-#ultimo {
-    padding-bottom: 4em;
-}
-
-fieldset {
-    background-color: var(--cor3);
-    color: var(--cor1);
-    font-weight: bold;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
+    background-color: var(--corazulescuro);
     width: 100%;
-    padding: 5px 0px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    color: white;
 }
