@@ -8,32 +8,40 @@
     <link rel="shortcut icon" href="" type="image/x-icon">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 </head>
 <body>
-    <menu>
+    <header>
         <div id="logo"><a href="index.html"><img src="imagens/logo-yago.png" alt="Logotipo Home" id="menulogo"> <span id="menuname">YAGO BORGES</span></a></div>
-        <nav>
-            <a href="index.html" class="menu">INÍCIO</a>
-            <a href="" class="menu">SOBRE MIM</a>
-            <a href="" class="menu">PROJETOS</a>
-            <a href="" class="menu">CONTATO</a>
-        </nav>
-    </menu>
+        <i id="burger" class="fi fi-br-menu-burger" onclick="clickMenu()"></i>
+        <menu id="item">
+            <ul>
+                <li><a href="index.html" id="primeiroitem">INÍCIO</a></li>
+                <li><a href="#sobremim">SOBRE MIM</a></li>
+                <li><a href="#projetos">PROJETOS</a></li>
+                <li><a href="#contato" >CONTATO</a></li>
+            </ul>
+        </menu>
+    </header>
     <main> 
-            <h1>OLÁ! EU SOU O YAGO BORGES.</h1>
-            <img src="" alt="Minha foto" id="mf">
-            <a href="https://github.com/Yagosb27" target="_blank"><img src="" alt="GitHub" class="logo"></a>
-            <a href="https://www.linkedin.com/in/yagosb/" target="_blank"><img src="" alt="LinkedIn" class="logo"></a>
-            <a href="https://www.facebook.com/yagosb" target="_blank"><img src="" alt="Facebook" class="logo"></a>
+        <section id="inicio">
+            <h1>OLÁ! EU SOU O <span id="destaquenome">YAGO BORGES</span></h1>
+            <img src="imagens/foto-yago.jpeg" alt="Minha foto" id="minhafoto">
+            <a href="https://github.com/Yagosb27" target="_blank"><i class="fi fi-brands-github"></i></a>
+            <a href="https://www.facebook.com/yagosb" target="_blank"><i class="fi fi-brands-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/yagosb/" target="_blank"><i class="fi fi-brands-linkedin"></i></a>
             <p>Estou explorando o misterioso mundo da tecnologia e vislumbrando as diversas linguagens que temos à nossa disposição. Para ser sincero, estou com dúvidas sobre em qual área focar, porém o Front End já me interessa bastante!</p>
-        <section>
+        </section>
+        <section id="sobremim">
             <h2>SOBRE MIM</h2>
             <p>Sou uma pessoa apaixonada por tecnologia e atualmente estou em transição de carreira para a área de TI. Atualmente ocupo o cargo de Analista de Atendimento ao Cliente, onde desenvolvi minhas habilidades de comunicação, resolução de problemas e atenção aos detalhes. Estou empenhado em adquirir as habilidades e conhecimentos necessários para me tornar um profissional de TI, com ênfase nos testes que envolvem um desenvolvimento de software.</p>
         </section>
+        <section id="projetos">
             <h2>PROJETOS</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quisquam vel officiis, cupiditate minima ducimus consequatur illum ratione, dignissimos voluptates nobis voluptatibus quod id voluptate rem delectus itaque, quis ullam.</p>
         </section>
-        <section>
+        <section id="contato">
             <h2>CONTATO</h2>
             <form action="" method="post" autocomplete="off">
                 <fieldset>
@@ -46,5 +54,14 @@
         </section>
     </main>
     <footer>Site criado por <strong>Yago Borges</strong>.</footer>
+    <script>
+        function clickMenu() {
+            if (item.style.display == `block`) {
+                item.style.display = `none`
+            } else {
+                item.style.display = `block`
+            }
+        }
+    </script>
 </body>
 </html>
