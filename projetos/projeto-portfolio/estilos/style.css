@@ -118,19 +118,28 @@ span#destaquenome {
 section#inicio > img#minhafoto {
     border-radius: 50%;
     width: 200px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
-section#inicio > a {
+section#inicio > div#redes {
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+section#inicio > div > a {
     text-decoration: none;
     color: var(--coronyx);
     font-size: 1.7em;
     padding: 5px;
 }
 
-section#inicio > a:hover {
+section#inicio > div > a:hover {
     color: var(--corlaranja);
     transition: 0.5s;
+}
+
+section#inicio > p {
+    margin-left: 100px;
 }
 
 h2 {
