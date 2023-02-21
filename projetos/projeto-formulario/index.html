@@ -8,6 +8,64 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="header">
+        <h1>Pesquisa de Satisfação</h1>
+        <p>Agradecemos pelo seu tempo! A pesquisa nos ajuda a aprimorar o nosso atendimento.</p>
+    </div>
+    <div class="form">
+        <div>
+            <label for="fullname">Nome Completo</label>
+            <input id="fullname" type="text">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="text">
+        </div>
+        <div>
+            <label for="option">Qual o tipo de serviço que você buscou em nossa empresa?</label>
+            <select name="option" id="option">
+                <option selected disabled value="">Selecione</option>
+                <option>Administrativo</option>
+                <option>Suporte</option>
+                <option>Financeiro</option>
+                <option>Outro</option>
+            </select>
+        </div>
+        <div>
+            <label for="recommend">Você recomendaria a nossa empresa para alguém?</label>
+            <label>
+                <input type="radio" name="recommend" id="yes" checked> Sim, com certeza!
+            </label>
+            <label>
+                <input type="radio" name="recommend" id="maybe"> Talvez.
+            </label>
+            <label>
+                <input type="radio" name="recommend" id="no"> Não.
+            </label>
+        </div>
+        <div>
+            <label>O que menos te agradou em nossa empresa? (Marque quantas alternativas desejar)
+            </label>
+            <input type="checkbox" name="valor1" id="valor1">
+            <label for="valor1">Atendimento</label>
+            <input type="checkbox" name="valor2" id="valor2">
+            <label for="valor2">Ambiente</label>
+            <input type="checkbox" name="valor3" id="valor3">
+            <label for="valor3">Tempo de espera</label>
+            <input type="checkbox" name="valor4" id="valor4">
+            <label for="valor4">Localidade</label>
+            <input type="checkbox" name="valor5" id="valor5">
+            <label for="valor5">Funcionários</label>
+            <input type="checkbox" name="valor6" id="valor6">
+            <label for="valor6">Sistemas</label>
+        </div>
+        <div>
+            <label>Algum comentário ou sugestão?</label>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="button" value="ENVIAR">
+        </div>
+    </div>
 </body>
 </html>
