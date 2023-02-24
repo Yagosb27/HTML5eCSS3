@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 :root {
-
+ --spacecadet: #1E2749;
+ --delftblue: #273469;
+ --periwinkle: #E4D9FF;
+ --ghostwhite: #FAFAFF;
+ --gunmetal: #30343F;
 }
 
 * {
@@ -9,12 +13,56 @@
     padding: 0;
 }
 
+html, body {
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
 .header {
     margin: 2em;
     text-align: center;
+    color: var(--ghostwhite);
 }
 
 .header > h1 {
     margin-bottom: 10px;
 }
+
+.form {
+    background-color: var(--spacecadet);
+    width: 60vw;
+    margin: auto;
+    color: var(--ghostwhite);
+    border-radius: 5px;
+    opacity: 0.85;
+    padding: 40px;
+    font-size: 1.4em;
+}
+
+input, select {
+    width: 50vw;
+    height: 2em;
+}
+
+div, label {
+    margin-bottom: 1em;
+}
+
+#button {
+    color: ghostwhite;
+    background-color: #394F49;
+    text-align: center;
+    width: 50vw;
+    height: 2.5em;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+
 
